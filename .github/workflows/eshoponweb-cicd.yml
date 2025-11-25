@@ -7,8 +7,8 @@ on: [ workflow_dispatch]
 env:
 RESOURCE-GROUP: rg-eshoponweb-eastus2
 LOCATION: eastus2
-  SUBSCRIPTION-ID: 839816b6-a080-464b-b7c2-469eac66655f
-  WEBAPP-NAME: devops-webapp-eastus2-57036457
+SUBSCRIPTION-ID: 839816b6-a080-464b-b7c2-469eac66655f
+WEBAPP-NAME: devops-webapp-eastus2-57036457
 
 jobs:
   #Build, test and publish .net web project in repository
